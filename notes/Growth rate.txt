@@ -1,0 +1,19 @@
+Did 10 moves, its way too long to wait :D 
+
+10 moves, 261091 nodes evaluated.
+
+
+b^xd=261091/10
+40^xd = 26109
+d=4
+
+2560000^x=26109
+
+x~0.7, its better than average
+
+
+
+
+
+
+

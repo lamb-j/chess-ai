@@ -1,0 +1,33 @@
+Hej Jacob
+
+Did you do anything related to chess app?
+
+Hey,
+
+I've been working with the files. The gbar IT finally downloaded mono,
+but not the newest version, so I still had trouble with the Drawing and Threading includes. However, I just commented those out because I didn't see
+them used anywhere.
+
+However, I also had a problem with Evaluation.cs, because I couldn't find
+where the 'Point' class was defined. Is this supposed to be the same as
+the Move class from Move.cs? I tried changing all of the 'Point' to 
+'Move', but still got some compiler errors related to class construction. 
+
+Anyways, I've set aside some time tonight and tomorrow night to work on 
+this project (most of the week I've been working on OS/ studying for exams).
+
+---
+
+For checkmate, we could build it in to the king_safe(). Basicially 
+checkmate is when the king is in check and we can't make a legal
+move. 
+
+If we check king_safe() for every move in MoveGen, then all of the moves
+will be guarenteed legal. Then if MoveGeneration returns an empty list 
+we'll know we're in checkmate or stalemate. One last check of king_safe() would determine which.
+
+I can implement the king_safe() into MoveGeneration tonight if you want.
+
+Also, if you guys have Facebook maybe that would be easier for 
+communication. Feel free to add me, just search Jacob Lambert Tennessee, 
+first one, or jacob.lambert.7@faceboo.com might work.
